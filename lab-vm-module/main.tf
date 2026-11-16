@@ -1,0 +1,22 @@
+module "vm_linux" {
+  source                  = "./modules/vm-linux"
+  resource_group_name     = var.resource_group_name
+  admin_username          = var.admin_username
+  admin_password          = var.admin_password
+  location                = var.location
+  vm_name                 = var.vm_name
+  vm_size                 = var.vm_size
+  vnet_name               = var.vnet_name
+  vnet_address_space      = var.vnet_address_space
+  subnet_name             = var.subnet_name
+  subnet_prefix           = var.subnet_prefix
+  public_ip_name          = var.public_ip_name
+  nic_name                = var.nic_name
+  os_disk_name            = var.os_disk_name
+  os_disk_storage_account = var.os_disk_storage_account
+  image_offer             = var.image_offer
+  image_publisher         = var.image_publisher
+  image_sku               = var.image_sku
+  image_version           = var.image_version
+  nsg_name                = var.nsg_name
+}

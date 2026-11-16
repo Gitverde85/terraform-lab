@@ -1,0 +1,6 @@
+resource_group_name = "rg-tf-vm-keyvault"
+location            = "eastus"
+key_vault_name      = "kv-terraform-lab-14086"
+secret_name         = "vmPassword"
+vm_name             = "vm-keyvault-demo"
+admin_username      = "azureuser"
