@@ -4,7 +4,7 @@ This repository is a collection of hands-on labs and projects focused on **Infra
 
 ---
 
-## 🏆 Capstone Project
+## 🏆 Final Project
 
 * **[`azure-terraform-vm-project`](./azure-terraform-vm-project)** – Complete, production-ready Azure VM infrastructure featuring segmented VNets, dynamic NSGs, Load Balancer, Key Vault SSH management, Log Analytics monitoring, Backup vaults, and FinOps auto-shutdown policies.
 
