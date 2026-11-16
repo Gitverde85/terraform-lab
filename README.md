@@ -2,10 +2,6 @@
 
 This repository is a collection of hands-on labs and projects focused on **Infrastructure as Code (IaC)** using **Terraform** and **Microsoft Azure**. It covers everything from basic resource provisioning to security scanning, reusable modules, remote state management, and a full-scale final capstone architecture.
 
-![Terraform](https://shields.io)
-![Azure](https://shields.io)
-![Linux](https://shields.io)
-
 ---
 
 ## 🏆 Capstone Project
